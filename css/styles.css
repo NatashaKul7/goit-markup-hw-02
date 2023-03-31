@@ -1,0 +1,139 @@
+:root {
+  /* Fonts */
+  --primary-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+
+  /* Text colors */
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: #2e2f42;
+  --grey: #2e2f42;
+  --white: #ffffff;
+  --dairy: #fcfcfc;
+
+  /* BG-color */
+  --white-bg-cl: #ffffff;
+  --navy-blue-bg-cl: #2e2f42;
+  --cloud-bg-cl: #f4f4fd;
+  --iris-bg-cl: #4d5ae5;
+  --ocean-bg-cl: #404bbf;
+}
+
+/* body */
+body {
+  background-color: var(--white-bg-cl);
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1, 5;
+  letter-spacing: 0.02em;
+
+  color: var(--slate);
+}
+
+/* logo */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1, 17;
+
+  color: var(--iris);
+  text-decoration: none;
+}
+.header-logo {
+  color: var(--navy-blue);
+}
+
+/* navigation */
+.header-nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 5;
+
+  color: var(--navy-blue);
+  text-decoration: none;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--ocean);
+}
+
+.list {
+  list-style: none;
+}
+
+/* contact */
+.contact-link {
+  font-style: normal;
+
+  color: var(--slate);
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--ocean);
+}
+
+/* hero */
+.hero {
+  background-color: var(--navy-blue-bg-cl);
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1, 07;
+  text-align: center;
+
+  color: var(--white);
+}
+
+.button {
+  color: var(--white);
+  background-color: var(--iris-bg-cl);
+}
+.button:hover,
+.button:focus {
+  color: var(--white);
+  background-color: var(--ocean-bg-cl);
+}
+
+/* section */
+.section-title {
+  font-size: 36px;
+  line-height: 1, 11;
+  text-align: center;
+
+  color: var(--navy-blue);
+}
+/* advantages / team */
+.advantages-list .title,
+.team-list .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+
+  color: var(--navy-blue);
+}
+.team {
+  background-color: var(--cloud-bg-cl);
+}
+
+/* footer */
+.footer {
+  background-color: var(--navy-blue-bg-cl);
+}
+.footer-logo {
+  color: var(--cloud);
+}
+.footer .text {
+  color: var(--cloud);
+}
