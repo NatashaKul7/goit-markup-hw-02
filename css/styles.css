@@ -2,6 +2,8 @@
   /* Fonts */
   --primary-font: Roboto, sans-serif;
   --secondary-font: Raleway, sans-serif;
+  --main-font-weight: 400;
+  --main-font-size: 16px;
 
   /* Text colors */
   --iris: #4d5ae5;
@@ -30,8 +32,8 @@ body {
   background-color: var(--white-bg-cl);
   font-family: Roboto, sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
+  font-weight: var(--main-font-weigh);
+  font-size: var(--main-font-size);
   line-height: 1, 5;
   letter-spacing: 0.02em;
 
@@ -97,8 +99,10 @@ body {
 }
 
 .button {
+  font-family: inherit;
   color: var(--white);
   background-color: var(--iris-bg-cl);
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
@@ -126,6 +130,9 @@ body {
 .team {
   background-color: var(--cloud-bg-cl);
 }
+.team-list {
+  background-color: var(--white-bg-cl);
+}
 
 /* footer */
 .footer {
@@ -136,4 +143,25 @@ body {
 }
 .footer .text {
   color: var(--cloud);
+}
+
+/* portfolio */
+/* our work */
+.work-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1, 2;
+  color: var(--navy-blue);
+}
+.work-link {
+  font-family: inherit;
+
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+.list .work-link:hover,
+.list .work-link:focus {
+  color: var(--ocean);
 }
