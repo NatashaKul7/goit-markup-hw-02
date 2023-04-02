@@ -179,6 +179,6 @@ body {
 
 .work-section .button:hover,
 .work-section .buttonink:focus {
-  color: var(--white);
-  background-color: var(--ocean-bg-cl);
+  color: #ffffff;
+  background-color: #404bbf;
 }
