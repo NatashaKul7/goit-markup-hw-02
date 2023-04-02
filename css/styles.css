@@ -49,7 +49,6 @@ body {
   letter-spacing: 0.03em;
 
   color: var(--iris);
-  text-decoration: none;
   text-transform: uppercase;
 }
 .header-logo {
@@ -57,18 +56,17 @@ body {
 }
 
 /* navigation */
-.header-nav-link {
+.header-nav-item .link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 
   color: var(--navy-blue);
-  text-decoration: none;
 }
 
-.header-nav-link:hover,
-.header-nav-link:focus {
-  color: var(--ocean);
+.link {
+  text-decoration: none;
+  font-style: normal;
 }
 
 .list {
@@ -76,15 +74,12 @@ body {
 }
 
 /* contact */
-.contact-link {
-  font-style: normal;
-
+.contact .link {
   color: var(--slate);
-  text-decoration: none;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.link:hover,
+.link:focus {
   color: var(--ocean);
 }
 
@@ -104,7 +99,7 @@ body {
 .button {
   font-family: inherit;
   font-weight: 500;
-  font-size: var(--main-font-size);
+  font-size: 16px;
   color: var(--white);
   background-color: var(--iris-bg-cl);
   line-height: 1.5;
